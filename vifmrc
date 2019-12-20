@@ -1,0 +1,10 @@
+nmap ; :
+
+set timefmt="%m/%d/%y %H:%M"
+
+" Status bar
+highlight User1 ctermbg=yellow
+highlight User2 ctermbg=blue ctermfg=white cterm=bold
+set statusline="%1* %-26t %2* %= %1* %A %2* %7u:%-7g %1* %-5E %2* %d "
+
+fileviewer *.png,*.jpeg,*.jpg,*.bmp start %"c
